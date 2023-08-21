@@ -1,0 +1,40 @@
+/* Global */
+:root {
+  /* App Colors */
+  --color-primary: var(--color-gray);
+  --color-text: var(--color-white);
+
+  /* Colors */
+  --color-gray: #1b1e26;
+  --color-white: #ffffff;
+}
+body {
+  background-color: var(--color-primary);
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+/* Header */
+.header {
+  padding: 10px;
+  text-align: center;
+}
+.header__link {
+  display: inline-block;
+}
+.header__logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.header__img {
+  width: 32px;
+  height: 32px;
+}
+.header__text {
+  line-height: 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
